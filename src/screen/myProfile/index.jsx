@@ -100,7 +100,9 @@ const MyProfile = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      
+       <h1 className="text-3xl font-bold text-center text-blue-800 mb-10">
+        My Proflie
+      </h1>     
       <div className="max-w-7xl mx-auto p-6 flex flex-col md:flex-row gap-6">
         <div className="md:flex-[0.3] bg-white p-6 rounded-lg shadow-md">
           <CardUserOverview userAvatar={avatarURL} data={user} onAvatarChange={handleAvatarChange} />
