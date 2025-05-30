@@ -37,7 +37,7 @@ const CardUserOverview = (props) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 w-full text-center h-[70vh]">
+    <div className="bg-white rounded-lg shadow-md p-6 w-full text-center h-[90vh]">
       <div className="flex justify-center mb-10">
         <img
           src={props.userAvatar}
